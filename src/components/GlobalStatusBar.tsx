@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useCivicStore } from '@/store/civicStore';
 
 interface CryptoPrice { symbol: string; price: number; }
 interface CyberThreat { id: string; name: string; vendor: string; product: string; date: string; }
@@ -47,6 +48,9 @@ export default function GlobalStatusBar() {
   const [quakes, setQuakes] = useState<Earthquake[]>([]);
 
   const [hoveredQuake, setHoveredQuake] = useState<Earthquake | null>(null);
+  const issues = useCivicStore(state => state.issues);
+  const criticalHazards = issues.filter(i => i.status === 'open' && (i.category === 'Drainage' || i.category === 'Roads'));
+  const hasCriticalHazard = criticalHazards.length > 3;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -130,6 +134,17 @@ export default function GlobalStatusBar() {
         {/* Static label */}
         <div className="flex-shrink-0 px-3 h-full flex items-center gap-1 border-r border-[var(--cyan-primary)]/30 bg-black pointer-events-auto relative z-10 shadow-[4px_0_10px_rgba(0,0,0,0.5)]">
           <span className="text-[var(--cyan-primary)] font-bold">LIVE</span>
+          {hasCriticalHazard && (
+            <div className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-red-950/80 border border-red-500/60 shadow-[0_0_8px_rgba(239,68,68,0.4)] pointer-events-auto">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+              </span>
+              <span className="text-red-400 font-bold tracking-wider text-[8px] animate-pulse">
+                CRITICAL WARD HAZARD ({criticalHazards.length})
+              </span>
+            </div>
+          )}
         </div>
 
         {/* CSS-animated ticker */}

@@ -1,6 +1,6 @@
-name: osiris
+name: nagaiai
 services:
-  osiris:
+  nagaiai:
     # Pulls the prebuilt image from GitHub Container Registry. The `build:`
     # block is kept as a fallback: `docker compose up -d` uses the registry
     # image if present/pullable, otherwise builds locally from the Dockerfile.
@@ -8,10 +8,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: osiris
-    # Host port is configurable via OSIRIS_PORT in .env (defaults to 3000).
+    container_name: nagaiai
+    # Host port is configurable via NAGAIAI_PORT in .env (defaults to 3000).
     ports:
-      - "${OSIRIS_PORT:-3000}:3000"
+      - "${NAGAIAI_PORT:-3000}:3000"
     # Optional API keys / scanner backend — copy .env.template to .env and
     # fill in what you need. Missing file is ignored (keyless feeds still work).
     env_file:
@@ -29,25 +29,25 @@ services:
       - default
       - umami_default
 
-  osiris-cache:
+  nagaiai-cache:
     image: nginx:alpine
-    container_name: osiris-cache
+    container_name: nagaiai-cache
     ports:
       - "8080:8080"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - nginx-cache:/var/cache/nginx
     depends_on:
-      - osiris
+      - nagaiai
     restart: unless-stopped
     networks:
       - default
 
-  osiris-intel:
+  nagaiai-intel:
     build:
       context: ./intel
       dockerfile: Dockerfile
-    container_name: osiris-intel
+    container_name: nagaiai-intel
     ports:
       - "4000:4000"
     restart: unless-stopped
@@ -66,26 +66,24 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  main: osiris
+  main: nagaiai
   author: simplifaisoul
   developer: simplifaisoul
   category: Network
   description:
     en_us: >-
-      OSIRIS is a production-grade open-source OSINT situational-awareness
-      dashboard. It aggregates real-time global intelligence across aviation,
-      maritime, CCTV networks, seismic activity, wildfires, news feeds,
-      weather, space weather, cyber threats (CVEs) and conflict zones into a
-      single GPU-accelerated MapLibre interface. Most features work with no
-      API keys.
+      NagarAI is a civic intelligence platform for India's accountability layer.
+      It aggregates real-time data across governance, public infrastructure,
+      air quality, disaster events, and geospatial intelligence into a
+      single MapLibre interface. Most features work with no API keys.
   tagline:
-    en_us: Real-time global OSINT intelligence dashboard
+    en_us: India's Civic Accountability Engine
   title:
-    en_us: OSIRIS
-  icon: https://raw.githubusercontent.com/Aiacos/osiris/master/public/casaos-icon.png
-  thumbnail: https://raw.githubusercontent.com/Aiacos/osiris/master/public/og-image.png
+    en_us: NagarAI
+  icon: ""
+  thumbnail: ""
   screenshot_link:
-    - https://raw.githubusercontent.com/Aiacos/osiris/master/public/og-image.png
+    - ""
   scheme: http
   hostname: ""
   port_map: "3000"
@@ -97,7 +95,7 @@ x-casaos:
         en_us: "(Optional) RECON scanner backend URL, e.g. http://scanner:7700"
     - container: SCANNER_KEY
       description:
-        en_us: "(Optional) RECON scanner shared secret (must match backend OSIRIS_KEY)."
+        en_us: "(Optional) RECON scanner shared secret (must match backend NAGAIAI_KEY)."
     - container: FIRMS_API_KEY
       description:
         en_us: "(Optional) NASA FIRMS API key for active-fire data."

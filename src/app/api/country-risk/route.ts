@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 
 // Country Intelligence Index — composite risk from earthquakes, conflicts, instability
 // Inspired by WorldMonitor's 12-signal risk scoring
@@ -81,7 +81,7 @@ export async function GET() {
           }
         }
       }
-    } catch (e) { console.warn('[OSIRIS] Suppressed error:', e instanceof Error ? e.message : e); }
+    } catch (e) { console.warn('[NAGAIAI] Suppressed error:', e instanceof Error ? e.message : e); }
 
     const countries = Object.entries(RISK_FACTORS).map(([code, data]) => ({
       code,

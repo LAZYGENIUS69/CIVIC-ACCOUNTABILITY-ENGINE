@@ -31,7 +31,7 @@ const getLayerGroups = (theme: 'core' | 'ghost') => {
   return [
   {
     label: 'SDK',
-    fullLabel: 'OSIRIS SDK',
+    fullLabel: 'NagarAI SDK',
     color: '#1565C0',
     layers: [
       { key: 'sdk_sea', label: 'Maritime Lines', icon: Anchor, color: '#4FC3F7', dataKey: 'sdk_entities' },
@@ -168,7 +168,7 @@ function LayerPanel({ data, activeLayers, setActiveLayers, isMobile, theme = 'co
             <div className="grid grid-cols-2 gap-2">
               {group.layers.map((layer) => {
                 const isLayerActive = activeLayers[layer.key];
-                const count = getCount(layer.dataKey, layer.catKey);
+                const count = getCount(layer.dataKey, (layer as any).catKey);
                 
                 return (
                   <button
@@ -302,7 +302,7 @@ function LayerPanel({ data, activeLayers, setActiveLayers, isMobile, theme = 'co
                     <div className="flex flex-col gap-1.5">
                       {group.layers.map((layer) => {
                         const isLayerActive = activeLayers[layer.key];
-                        const count = getCount(layer.dataKey, layer.catKey);
+                        const count = getCount(layer.dataKey, (layer as any).catKey);
                         const Icon = layer.icon || Shield;
                         
                         return (

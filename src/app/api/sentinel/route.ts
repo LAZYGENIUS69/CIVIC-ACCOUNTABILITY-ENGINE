@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 
 // Sentinel-1 SAR Satellite — STAC Catalog via Element84 Earth Search + Copernicus fallback
 export async function GET(req: Request) {
@@ -42,7 +42,7 @@ export async function GET(req: Request) {
         total = data.numberMatched || scenes.length;
         source = 'element84';
       }
-    } catch (e) { console.warn('[OSIRIS] Suppressed error:', e instanceof Error ? e.message : e); }
+    } catch (e) { console.warn('[NAGAIAI] Suppressed error:', e instanceof Error ? e.message : e); }
 
     // Source 2: Try sentinel-2 if sentinel-1 is empty
     if (scenes.length === 0) {
@@ -65,7 +65,7 @@ export async function GET(req: Request) {
           total = data.numberMatched || scenes.length;
           source = 'element84-s2';
         }
-      } catch (e) { console.warn('[OSIRIS] Suppressed error:', e instanceof Error ? e.message : e); }
+      } catch (e) { console.warn('[NAGAIAI] Suppressed error:', e instanceof Error ? e.message : e); }
     }
 
     // Source 3: Copernicus STAC fallback
@@ -88,7 +88,7 @@ export async function GET(req: Request) {
           total = data.numberMatched || scenes.length;
           source = 'copernicus';
         }
-      } catch (e) { console.warn('[OSIRIS] Suppressed error:', e instanceof Error ? e.message : e); }
+      } catch (e) { console.warn('[NAGAIAI] Suppressed error:', e instanceof Error ? e.message : e); }
     }
 
     return NextResponse.json({

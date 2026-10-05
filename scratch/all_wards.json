@@ -1,0 +1,1217 @@
+[
+  {
+    "KGISWardNo": "1",
+    "KGISWardName": "Kempegowda Ward",
+    "KGISWardID": 4878
+  },
+  {
+    "KGISWardNo": "2",
+    "KGISWardName": "Chowdeswari Ward",
+    "KGISWardID": 4879
+  },
+  {
+    "KGISWardNo": "3",
+    "KGISWardName": "Someshwara Ward",
+    "KGISWardID": 4882
+  },
+  {
+    "KGISWardNo": "4",
+    "KGISWardName": "Atturu Layout",
+    "KGISWardID": 4883
+  },
+  {
+    "KGISWardNo": "5",
+    "KGISWardName": "Yelahanka Satellite Town",
+    "KGISWardID": 4886
+  },
+  {
+    "KGISWardNo": "6",
+    "KGISWardName": "Kogilu",
+    "KGISWardID": 4887
+  },
+  {
+    "KGISWardNo": "7",
+    "KGISWardName": "Thanisandra",
+    "KGISWardID": 4890
+  },
+  {
+    "KGISWardNo": "8",
+    "KGISWardName": "Jakkuru",
+    "KGISWardID": 4891
+  },
+  {
+    "KGISWardNo": "9",
+    "KGISWardName": "Amrutahalli",
+    "KGISWardID": 4894
+  },
+  {
+    "KGISWardNo": "10",
+    "KGISWardName": "Kempapura",
+    "KGISWardID": 4895
+  },
+  {
+    "KGISWardNo": "11",
+    "KGISWardName": "Byatarayanapura",
+    "KGISWardID": 4898
+  },
+  {
+    "KGISWardNo": "12",
+    "KGISWardName": "Kodigehalli",
+    "KGISWardID": 4899
+  },
+  {
+    "KGISWardNo": "13",
+    "KGISWardName": "Dodda Bommasandra",
+    "KGISWardID": 4902
+  },
+  {
+    "KGISWardNo": "14",
+    "KGISWardName": "Vidyaranyapura",
+    "KGISWardID": 4903
+  },
+  {
+    "KGISWardNo": "15",
+    "KGISWardName": "Kuvempunagar",
+    "KGISWardID": 4906
+  },
+  {
+    "KGISWardNo": "16",
+    "KGISWardName": "Kammagondanahalli",
+    "KGISWardID": 4907
+  },
+  {
+    "KGISWardNo": "17",
+    "KGISWardName": "Shettihalli",
+    "KGISWardID": 4910
+  },
+  {
+    "KGISWardNo": "18",
+    "KGISWardName": "Bagalakunte",
+    "KGISWardID": 4911
+  },
+  {
+    "KGISWardNo": "19",
+    "KGISWardName": "Defence Colony",
+    "KGISWardID": 4914
+  },
+  {
+    "KGISWardNo": "20",
+    "KGISWardName": "Mallasandra",
+    "KGISWardID": 4915
+  },
+  {
+    "KGISWardNo": "21",
+    "KGISWardName": "T Dasarahalli",
+    "KGISWardID": 4918
+  },
+  {
+    "KGISWardNo": "22",
+    "KGISWardName": "Chokkasandra",
+    "KGISWardID": 4919
+  },
+  {
+    "KGISWardNo": "23",
+    "KGISWardName": "Nelagadderanahalli",
+    "KGISWardID": 4922
+  },
+  {
+    "KGISWardNo": "24",
+    "KGISWardName": "Rajagopal Nagar",
+    "KGISWardID": 4923
+  },
+  {
+    "KGISWardNo": "25",
+    "KGISWardName": "Rajeshwari Nagar",
+    "KGISWardID": 4926
+  },
+  {
+    "KGISWardNo": "26",
+    "KGISWardName": "Hegganahalli",
+    "KGISWardID": 4927
+  },
+  {
+    "KGISWardNo": "27",
+    "KGISWardName": "Sunkadakatte",
+    "KGISWardID": 4930
+  },
+  {
+    "KGISWardNo": "28",
+    "KGISWardName": "Dodda Bidarakallu",
+    "KGISWardID": 4931
+  },
+  {
+    "KGISWardNo": "29",
+    "KGISWardName": "Vidyamanyanagar",
+    "KGISWardID": 4934
+  },
+  {
+    "KGISWardNo": "30",
+    "KGISWardName": "Herohalli",
+    "KGISWardID": 4935
+  },
+  {
+    "KGISWardNo": "31",
+    "KGISWardName": "Doddagollarahatti",
+    "KGISWardID": 4938
+  },
+  {
+    "KGISWardNo": "32",
+    "KGISWardName": "Ullal",
+    "KGISWardID": 4939
+  },
+  {
+    "KGISWardNo": "33",
+    "KGISWardName": "Kengeri",
+    "KGISWardID": 4942
+  },
+  {
+    "KGISWardNo": "34",
+    "KGISWardName": "Bande Mutt",
+    "KGISWardID": 4943
+  },
+  {
+    "KGISWardNo": "35",
+    "KGISWardName": "Hemmigepura",
+    "KGISWardID": 4946
+  },
+  {
+    "KGISWardNo": "36",
+    "KGISWardName": "Chatrapati Shivaji",
+    "KGISWardID": 4947
+  },
+  {
+    "KGISWardNo": "37",
+    "KGISWardName": "Chanakya",
+    "KGISWardID": 4950
+  },
+  {
+    "KGISWardNo": "38",
+    "KGISWardName": "J P Park",
+    "KGISWardID": 4951
+  },
+  {
+    "KGISWardNo": "39",
+    "KGISWardName": "Kanneshwara Rama",
+    "KGISWardID": 4954
+  },
+  {
+    "KGISWardNo": "40",
+    "KGISWardName": "Veeramadakari",
+    "KGISWardID": 4955
+  },
+  {
+    "KGISWardNo": "41",
+    "KGISWardName": "Peenya",
+    "KGISWardID": 4958
+  },
+  {
+    "KGISWardNo": "42",
+    "KGISWardName": "Lakshmi Devi Nagar",
+    "KGISWardID": 4959
+  },
+  {
+    "KGISWardNo": "43",
+    "KGISWardName": "Ranadheera Kanteerava",
+    "KGISWardID": 4962
+  },
+  {
+    "KGISWardNo": "44",
+    "KGISWardName": "Veera Sindhura Lakshamana",
+    "KGISWardID": 4963
+  },
+  {
+    "KGISWardNo": "45",
+    "KGISWardName": "Vijayanagara Krishnadevaraya",
+    "KGISWardID": 4966
+  },
+  {
+    "KGISWardNo": "46",
+    "KGISWardName": "Sir M. Vishweshwaraiah",
+    "KGISWardID": 4967
+  },
+  {
+    "KGISWardNo": "47",
+    "KGISWardName": "Nalvadi Krishnaraja Wadior Park",
+    "KGISWardID": 4970
+  },
+  {
+    "KGISWardNo": "48",
+    "KGISWardName": "Jnana Bharathi",
+    "KGISWardID": 4971
+  },
+  {
+    "KGISWardNo": "49",
+    "KGISWardName": "Rajarajeshwari Nagar",
+    "KGISWardID": 4974
+  },
+  {
+    "KGISWardNo": "50",
+    "KGISWardName": "Marappana Palya",
+    "KGISWardID": 4975
+  },
+  {
+    "KGISWardNo": "51",
+    "KGISWardName": "Nagapura",
+    "KGISWardID": 4978
+  },
+  {
+    "KGISWardNo": "52",
+    "KGISWardName": "Mahalakshimpuram",
+    "KGISWardID": 4979
+  },
+  {
+    "KGISWardNo": "53",
+    "KGISWardName": "Nandini Layout",
+    "KGISWardID": 4982
+  },
+  {
+    "KGISWardNo": "54",
+    "KGISWardName": "Jai Maruthinagara",
+    "KGISWardID": 4983
+  },
+  {
+    "KGISWardNo": "55",
+    "KGISWardName": "Puneet Rajkumar",
+    "KGISWardID": 4986
+  },
+  {
+    "KGISWardNo": "56",
+    "KGISWardName": "Shankar Matt",
+    "KGISWardID": 4987
+  },
+  {
+    "KGISWardNo": "57",
+    "KGISWardName": "Shakthi Ganapathi Nagar",
+    "KGISWardID": 4990
+  },
+  {
+    "KGISWardNo": "58",
+    "KGISWardName": "Vrisabhavathi Nagar",
+    "KGISWardID": 4991
+  },
+  {
+    "KGISWardNo": "59",
+    "KGISWardName": "Mattikere",
+    "KGISWardID": 4994
+  },
+  {
+    "KGISWardNo": "60",
+    "KGISWardName": "Aramane Nagara",
+    "KGISWardID": 4995
+  },
+  {
+    "KGISWardNo": "61",
+    "KGISWardName": "Malleswaram",
+    "KGISWardID": 4998
+  },
+  {
+    "KGISWardNo": "62",
+    "KGISWardName": "Subramanya Nagar",
+    "KGISWardID": 4999
+  },
+  {
+    "KGISWardNo": "63",
+    "KGISWardName": "Gayithri Nagar",
+    "KGISWardID": 5002
+  },
+  {
+    "KGISWardNo": "64",
+    "KGISWardName": "Kadu Malleshwara",
+    "KGISWardID": 5003
+  },
+  {
+    "KGISWardNo": "65",
+    "KGISWardName": "Rajamahal Guttahalli",
+    "KGISWardID": 5006
+  },
+  {
+    "KGISWardNo": "66",
+    "KGISWardName": "Radhakrishna Temple Ward",
+    "KGISWardID": 5007
+  },
+  {
+    "KGISWardNo": "67",
+    "KGISWardName": "Sanjaya Nagar",
+    "KGISWardID": 5010
+  },
+  {
+    "KGISWardNo": "68",
+    "KGISWardName": "Vishwanath Nagenahalli",
+    "KGISWardID": 5011
+  },
+  {
+    "KGISWardNo": "69",
+    "KGISWardName": "Manorayanapalya",
+    "KGISWardID": 5014
+  },
+  {
+    "KGISWardNo": "70",
+    "KGISWardName": "Hebbala",
+    "KGISWardID": 5015
+  },
+  {
+    "KGISWardNo": "71",
+    "KGISWardName": "Chamundi Nagara",
+    "KGISWardID": 5018
+  },
+  {
+    "KGISWardNo": "72",
+    "KGISWardName": "Ganga Nagar",
+    "KGISWardID": 5019
+  },
+  {
+    "KGISWardNo": "73",
+    "KGISWardName": "Jayachamarajendra  Nagar",
+    "KGISWardID": 5022
+  },
+  {
+    "KGISWardNo": "74",
+    "KGISWardName": "Kaval Bairasandra",
+    "KGISWardID": 5023
+  },
+  {
+    "KGISWardNo": "75",
+    "KGISWardName": "Kushal Nagar",
+    "KGISWardID": 5026
+  },
+  {
+    "KGISWardNo": "76",
+    "KGISWardName": "Muneshwara Nagar",
+    "KGISWardID": 5027
+  },
+  {
+    "KGISWardNo": "77",
+    "KGISWardName": "Devara Jeevanahalli",
+    "KGISWardID": 5030
+  },
+  {
+    "KGISWardNo": "78",
+    "KGISWardName": "S K Garden",
+    "KGISWardID": 5031
+  },
+  {
+    "KGISWardNo": "79",
+    "KGISWardName": "Sagayarapuram",
+    "KGISWardID": 5034
+  },
+  {
+    "KGISWardNo": "80",
+    "KGISWardName": "Pulikeshinagar",
+    "KGISWardID": 5035
+  },
+  {
+    "KGISWardNo": "81",
+    "KGISWardName": "Horamavu",
+    "KGISWardID": 5038
+  },
+  {
+    "KGISWardNo": "82",
+    "KGISWardName": "Babusab Palya",
+    "KGISWardID": 5039
+  },
+  {
+    "KGISWardNo": "83",
+    "KGISWardName": "Kalkere",
+    "KGISWardID": 5042
+  },
+  {
+    "KGISWardNo": "84",
+    "KGISWardName": "Ramamurthy Nagara",
+    "KGISWardID": 5043
+  },
+  {
+    "KGISWardNo": "85",
+    "KGISWardName": "Vijinapura",
+    "KGISWardID": 5046
+  },
+  {
+    "KGISWardNo": "86",
+    "KGISWardName": "K R Puram",
+    "KGISWardID": 5047
+  },
+  {
+    "KGISWardNo": "87",
+    "KGISWardName": "Medahalli",
+    "KGISWardID": 5050
+  },
+  {
+    "KGISWardNo": "88",
+    "KGISWardName": "Basavanapura",
+    "KGISWardID": 5051
+  },
+  {
+    "KGISWardNo": "89",
+    "KGISWardName": "Devasandra",
+    "KGISWardID": 5054
+  },
+  {
+    "KGISWardNo": "90",
+    "KGISWardName": "Mahadevapura",
+    "KGISWardID": 5055
+  },
+  {
+    "KGISWardNo": "91",
+    "KGISWardName": "A Narayanapura",
+    "KGISWardID": 5058
+  },
+  {
+    "KGISWardNo": "92",
+    "KGISWardName": "Vijnana Nagar",
+    "KGISWardID": 5059
+  },
+  {
+    "KGISWardNo": "93",
+    "KGISWardName": "HAL Airport",
+    "KGISWardID": 5062
+  },
+  {
+    "KGISWardNo": "94",
+    "KGISWardName": "Hennur",
+    "KGISWardID": 5063
+  },
+  {
+    "KGISWardNo": "95",
+    "KGISWardName": "Nagavara",
+    "KGISWardID": 5066
+  },
+  {
+    "KGISWardNo": "96",
+    "KGISWardName": "Kadugondanahalli",
+    "KGISWardID": 5067
+  },
+  {
+    "KGISWardNo": "97",
+    "KGISWardName": "Venkateshpura",
+    "KGISWardID": 5070
+  },
+  {
+    "KGISWardNo": "98",
+    "KGISWardName": "Kacharkanahalli",
+    "KGISWardID": 5071
+  },
+  {
+    "KGISWardNo": "99",
+    "KGISWardName": "HRBR Layout",
+    "KGISWardID": 5074
+  },
+  {
+    "KGISWardNo": "100",
+    "KGISWardName": "Banasavadi",
+    "KGISWardID": 5075
+  },
+  {
+    "KGISWardNo": "101",
+    "KGISWardName": "Kammanahalli",
+    "KGISWardID": 5078
+  },
+  {
+    "KGISWardNo": "102",
+    "KGISWardName": "Lingarajapura",
+    "KGISWardID": 5079
+  },
+  {
+    "KGISWardNo": "103",
+    "KGISWardName": "Maruthi Seva Nagar",
+    "KGISWardID": 5082
+  },
+  {
+    "KGISWardNo": "104",
+    "KGISWardName": "Kadugodi",
+    "KGISWardID": 5083
+  },
+  {
+    "KGISWardNo": "105",
+    "KGISWardName": "Belathur",
+    "KGISWardID": 5086
+  },
+  {
+    "KGISWardNo": "106",
+    "KGISWardName": "Hudi",
+    "KGISWardID": 5087
+  },
+  {
+    "KGISWardNo": "107",
+    "KGISWardName": "Garudachar Playa",
+    "KGISWardID": 5090
+  },
+  {
+    "KGISWardNo": "108",
+    "KGISWardName": "Dodda Nekkundi",
+    "KGISWardID": 5091
+  },
+  {
+    "KGISWardNo": "109",
+    "KGISWardName": "AECS Layout",
+    "KGISWardID": 5094
+  },
+  {
+    "KGISWardNo": "110",
+    "KGISWardName": "Whitefield",
+    "KGISWardID": 5095
+  },
+  {
+    "KGISWardNo": "111",
+    "KGISWardName": "Hagadur",
+    "KGISWardID": 5098
+  },
+  {
+    "KGISWardNo": "112",
+    "KGISWardName": "Varthuru",
+    "KGISWardID": 5099
+  },
+  {
+    "KGISWardNo": "113",
+    "KGISWardName": "Munnekollala",
+    "KGISWardID": 5102
+  },
+  {
+    "KGISWardNo": "114",
+    "KGISWardName": "Marathahalli",
+    "KGISWardID": 5103
+  },
+  {
+    "KGISWardNo": "115",
+    "KGISWardName": "Bellanduru",
+    "KGISWardID": 5106
+  },
+  {
+    "KGISWardNo": "116",
+    "KGISWardName": "Doddakanahalli",
+    "KGISWardID": 5107
+  },
+  {
+    "KGISWardNo": "117",
+    "KGISWardName": "C V Raman Nagar",
+    "KGISWardID": 5110
+  },
+  {
+    "KGISWardNo": "118",
+    "KGISWardName": "Lal Bahadur Nagar",
+    "KGISWardID": 5111
+  },
+  {
+    "KGISWardNo": "119",
+    "KGISWardName": "New Bayappanahalli",
+    "KGISWardID": 5114
+  },
+  {
+    "KGISWardNo": "120",
+    "KGISWardName": "Hoysala Nagar",
+    "KGISWardID": 5115
+  },
+  {
+    "KGISWardNo": "121",
+    "KGISWardName": "Old Thippasandra",
+    "KGISWardID": 5118
+  },
+  {
+    "KGISWardNo": "122",
+    "KGISWardName": "New Thippasandra",
+    "KGISWardID": 5119
+  },
+  {
+    "KGISWardNo": "123",
+    "KGISWardName": "Jalakanteshwara Nagara",
+    "KGISWardID": 5122
+  },
+  {
+    "KGISWardNo": "124",
+    "KGISWardName": "Jeevanbhima Nagar",
+    "KGISWardID": 5123
+  },
+  {
+    "KGISWardNo": "125",
+    "KGISWardName": "Konena Agrahara",
+    "KGISWardID": 5126
+  },
+  {
+    "KGISWardNo": "126",
+    "KGISWardName": "Ramaswamy Palya",
+    "KGISWardID": 5127
+  },
+  {
+    "KGISWardNo": "127",
+    "KGISWardName": "Jayamahal",
+    "KGISWardID": 5130
+  },
+  {
+    "KGISWardNo": "128",
+    "KGISWardName": "Vasanth Nagar",
+    "KGISWardID": 5131
+  },
+  {
+    "KGISWardNo": "129",
+    "KGISWardName": "Sampangiram Nagar",
+    "KGISWardID": 5134
+  },
+  {
+    "KGISWardNo": "130",
+    "KGISWardName": "Bharathi Nagar",
+    "KGISWardID": 5135
+  },
+  {
+    "KGISWardNo": "131",
+    "KGISWardName": "Ulsoor",
+    "KGISWardID": 5138
+  },
+  {
+    "KGISWardNo": "132",
+    "KGISWardName": "Dattatreya Temple",
+    "KGISWardID": 5139
+  },
+  {
+    "KGISWardNo": "133",
+    "KGISWardName": "Gandhinagar",
+    "KGISWardID": 5142
+  },
+  {
+    "KGISWardNo": "134",
+    "KGISWardName": "Subhash Nagar",
+    "KGISWardID": 5143
+  },
+  {
+    "KGISWardNo": "135",
+    "KGISWardName": "Okalipuram",
+    "KGISWardID": 5146
+  },
+  {
+    "KGISWardNo": "136",
+    "KGISWardName": "Binnipete",
+    "KGISWardID": 5147
+  },
+  {
+    "KGISWardNo": "137",
+    "KGISWardName": "Cottonpete",
+    "KGISWardID": 5150
+  },
+  {
+    "KGISWardNo": "138",
+    "KGISWardName": "Chickpete",
+    "KGISWardID": 5151
+  },
+  {
+    "KGISWardNo": "139",
+    "KGISWardName": "Dayananda Nagar",
+    "KGISWardID": 5154
+  },
+  {
+    "KGISWardNo": "140",
+    "KGISWardName": "Prakash Nagar",
+    "KGISWardID": 5155
+  },
+  {
+    "KGISWardNo": "141",
+    "KGISWardName": "Rajaji Nagar",
+    "KGISWardID": 5158
+  },
+  {
+    "KGISWardNo": "142",
+    "KGISWardName": "Sriramamandir",
+    "KGISWardID": 5159
+  },
+  {
+    "KGISWardNo": "143",
+    "KGISWardName": "Shivanagara",
+    "KGISWardID": 5162
+  },
+  {
+    "KGISWardNo": "144",
+    "KGISWardName": "Basaveshwara Nagar",
+    "KGISWardID": 5163
+  },
+  {
+    "KGISWardNo": "145",
+    "KGISWardName": "Kamakshipalya",
+    "KGISWardID": 5166
+  },
+  {
+    "KGISWardNo": "146",
+    "KGISWardName": "Dr. Raj Kumar Ward",
+    "KGISWardID": 5167
+  },
+  {
+    "KGISWardNo": "147",
+    "KGISWardName": "Agrahara Dasarahalli",
+    "KGISWardID": 5170
+  },
+  {
+    "KGISWardNo": "148",
+    "KGISWardName": "Govindaraja Nagar",
+    "KGISWardID": 5171
+  },
+  {
+    "KGISWardNo": "149",
+    "KGISWardName": "Kaveripura",
+    "KGISWardID": 5174
+  },
+  {
+    "KGISWardNo": "150",
+    "KGISWardName": "Marenahalli",
+    "KGISWardID": 5175
+  },
+  {
+    "KGISWardNo": "151",
+    "KGISWardName": "Maruthi Mandir ward",
+    "KGISWardID": 5178
+  },
+  {
+    "KGISWardNo": "152",
+    "KGISWardName": "Mudalapalya",
+    "KGISWardID": 5179
+  },
+  {
+    "KGISWardNo": "153",
+    "KGISWardName": "Nagarabhavi",
+    "KGISWardID": 5182
+  },
+  {
+    "KGISWardNo": "154",
+    "KGISWardName": "Chandra Layout",
+    "KGISWardID": 5183
+  },
+  {
+    "KGISWardNo": "155",
+    "KGISWardName": "Nayandahalli",
+    "KGISWardID": 5186
+  },
+  {
+    "KGISWardNo": "156",
+    "KGISWardName": "Kempapura Agrahara",
+    "KGISWardID": 5187
+  },
+  {
+    "KGISWardNo": "157",
+    "KGISWardName": "Vijayanagar",
+    "KGISWardID": 5190
+  },
+  {
+    "KGISWardNo": "158",
+    "KGISWardName": "Hosahalli",
+    "KGISWardID": 5191
+  },
+  {
+    "KGISWardNo": "159",
+    "KGISWardName": "Hampi Nagar",
+    "KGISWardID": 5194
+  },
+  {
+    "KGISWardNo": "160",
+    "KGISWardName": "Bapuji Nagar",
+    "KGISWardID": 5195
+  },
+  {
+    "KGISWardNo": "161",
+    "KGISWardName": "Attiguppe",
+    "KGISWardID": 5198
+  },
+  {
+    "KGISWardNo": "162",
+    "KGISWardName": "Gali Anjenaya Temple ward",
+    "KGISWardID": 5199
+  },
+  {
+    "KGISWardNo": "163",
+    "KGISWardName": "Veerabhadranagar",
+    "KGISWardID": 5202
+  },
+  {
+    "KGISWardNo": "164",
+    "KGISWardName": "Avalahalli",
+    "KGISWardID": 5203
+  },
+  {
+    "KGISWardNo": "165",
+    "KGISWardName": "Chamrajapet",
+    "KGISWardID": 5206
+  },
+  {
+    "KGISWardNo": "166",
+    "KGISWardName": "Chalavadipalya",
+    "KGISWardID": 5207
+  },
+  {
+    "KGISWardNo": "167",
+    "KGISWardName": "Jagajivanaram Nagar",
+    "KGISWardID": 5210
+  },
+  {
+    "KGISWardNo": "168",
+    "KGISWardName": "Padarayanapura",
+    "KGISWardID": 5211
+  },
+  {
+    "KGISWardNo": "169",
+    "KGISWardName": "Devaraj Urs Nagar",
+    "KGISWardID": 5214
+  },
+  {
+    "KGISWardNo": "170",
+    "KGISWardName": "Azad Nagar",
+    "KGISWardID": 5215
+  },
+  {
+    "KGISWardNo": "171",
+    "KGISWardName": "Sudham Nagara",
+    "KGISWardID": 5218
+  },
+  {
+    "KGISWardNo": "172",
+    "KGISWardName": "Dharmaraya Swamy Temple Ward",
+    "KGISWardID": 5219
+  },
+  {
+    "KGISWardNo": "173",
+    "KGISWardName": "Sunkenahalli",
+    "KGISWardID": 5222
+  },
+  {
+    "KGISWardNo": "174",
+    "KGISWardName": "Vishveshwara Puram",
+    "KGISWardID": 5223
+  },
+  {
+    "KGISWardNo": "175",
+    "KGISWardName": "Ashoka Pillar",
+    "KGISWardID": 5226
+  },
+  {
+    "KGISWardNo": "176",
+    "KGISWardName": "Someshwara Nagar",
+    "KGISWardID": 5227
+  },
+  {
+    "KGISWardNo": "177",
+    "KGISWardName": "Hombegowda Nagara",
+    "KGISWardID": 5230
+  },
+  {
+    "KGISWardNo": "178",
+    "KGISWardName": "Domlur",
+    "KGISWardID": 5231
+  },
+  {
+    "KGISWardNo": "179",
+    "KGISWardName": "Jogupalya",
+    "KGISWardID": 5234
+  },
+  {
+    "KGISWardNo": "180",
+    "KGISWardName": "Agaram",
+    "KGISWardID": 5235
+  },
+  {
+    "KGISWardNo": "181",
+    "KGISWardName": "Shantala Nagar",
+    "KGISWardID": 5238
+  },
+  {
+    "KGISWardNo": "182",
+    "KGISWardName": "Shanthi Nagar",
+    "KGISWardID": 5239
+  },
+  {
+    "KGISWardNo": "183",
+    "KGISWardName": "Neelasandra",
+    "KGISWardID": 5242
+  },
+  {
+    "KGISWardNo": "184",
+    "KGISWardName": "Vannarapete",
+    "KGISWardID": 5243
+  },
+  {
+    "KGISWardNo": "185",
+    "KGISWardName": "Ejipura",
+    "KGISWardID": 5246
+  },
+  {
+    "KGISWardNo": "186",
+    "KGISWardName": "Koramangala",
+    "KGISWardID": 5247
+  },
+  {
+    "KGISWardNo": "187",
+    "KGISWardName": "Adugodi",
+    "KGISWardID": 5250
+  },
+  {
+    "KGISWardNo": "188",
+    "KGISWardName": "Lakkasandra",
+    "KGISWardID": 5251
+  },
+  {
+    "KGISWardNo": "189",
+    "KGISWardName": "Suddagunte Palya",
+    "KGISWardID": 5254
+  },
+  {
+    "KGISWardNo": "190",
+    "KGISWardName": "Madivala",
+    "KGISWardID": 5255
+  },
+  {
+    "KGISWardNo": "191",
+    "KGISWardName": "Jakkasandra",
+    "KGISWardID": 5258
+  },
+  {
+    "KGISWardNo": "192",
+    "KGISWardName": "BTM Layout",
+    "KGISWardID": 5259
+  },
+  {
+    "KGISWardNo": "193",
+    "KGISWardName": "N S Palya",
+    "KGISWardID": 5262
+  },
+  {
+    "KGISWardNo": "194",
+    "KGISWardName": "Gurappanapalya",
+    "KGISWardID": 5263
+  },
+  {
+    "KGISWardNo": "195",
+    "KGISWardName": "Tilak Nagar",
+    "KGISWardID": 5266
+  },
+  {
+    "KGISWardNo": "196",
+    "KGISWardName": "Byrasandra",
+    "KGISWardID": 5267
+  },
+  {
+    "KGISWardNo": "197",
+    "KGISWardName": "Shakambari Nagar",
+    "KGISWardID": 5270
+  },
+  {
+    "KGISWardNo": "198",
+    "KGISWardName": "J P Nagar",
+    "KGISWardID": 5271
+  },
+  {
+    "KGISWardNo": "199",
+    "KGISWardName": "Sarakki",
+    "KGISWardID": 6964
+  },
+  {
+    "KGISWardNo": "200",
+    "KGISWardName": "Yediyur",
+    "KGISWardID": 6935
+  },
+  {
+    "KGISWardNo": "201",
+    "KGISWardName": "Umamaheshwara Ward",
+    "KGISWardID": 6952
+  },
+  {
+    "KGISWardNo": "202",
+    "KGISWardName": "Ganesh Mandir ward",
+    "KGISWardID": 6969
+  },
+  {
+    "KGISWardNo": "203",
+    "KGISWardName": "Banashankari Temple ward",
+    "KGISWardID": 6970
+  },
+  {
+    "KGISWardNo": "204",
+    "KGISWardName": "Kumaraswamy Layout",
+    "KGISWardID": 6953
+  },
+  {
+    "KGISWardNo": "205",
+    "KGISWardName": "Vikram Nagar",
+    "KGISWardID": 6950
+  },
+  {
+    "KGISWardNo": "206",
+    "KGISWardName": "Padmanabha Nagar",
+    "KGISWardID": 6968
+  },
+  {
+    "KGISWardNo": "207",
+    "KGISWardName": "Kamakya Nagar",
+    "KGISWardID": 6962
+  },
+  {
+    "KGISWardNo": "208",
+    "KGISWardName": "Deen Dayalu Ward",
+    "KGISWardID": 6963
+  },
+  {
+    "KGISWardNo": "209",
+    "KGISWardName": "Hosakerehalli",
+    "KGISWardID": 6961
+  },
+  {
+    "KGISWardNo": "210",
+    "KGISWardName": "Basavanagudi",
+    "KGISWardID": 6926
+  },
+  {
+    "KGISWardNo": "211",
+    "KGISWardName": "Hanumanth Nagar",
+    "KGISWardID": 6931
+  },
+  {
+    "KGISWardNo": "212",
+    "KGISWardName": "Srinivasa Nagar",
+    "KGISWardID": 6927
+  },
+  {
+    "KGISWardNo": "213",
+    "KGISWardName": "Srinagar",
+    "KGISWardID": 6928
+  },
+  {
+    "KGISWardNo": "214",
+    "KGISWardName": "Girinagar",
+    "KGISWardID": 6929
+  },
+  {
+    "KGISWardNo": "215",
+    "KGISWardName": "Katriguppe",
+    "KGISWardID": 6933
+  },
+  {
+    "KGISWardNo": "216",
+    "KGISWardName": "Vidyapeeta ward",
+    "KGISWardID": 6932
+  },
+  {
+    "KGISWardNo": "217",
+    "KGISWardName": "Uttarahalli",
+    "KGISWardID": 6967
+  },
+  {
+    "KGISWardNo": "218",
+    "KGISWardName": "Subramanyapura",
+    "KGISWardID": 6936
+  },
+  {
+    "KGISWardNo": "219",
+    "KGISWardName": "Vasanthpura",
+    "KGISWardID": 6954
+  },
+  {
+    "KGISWardNo": "220",
+    "KGISWardName": "Yelachenahalli",
+    "KGISWardID": 6942
+  },
+  {
+    "KGISWardNo": "221",
+    "KGISWardName": "Konanakunte",
+    "KGISWardID": 6945
+  },
+  {
+    "KGISWardNo": "222",
+    "KGISWardName": "RBI layout",
+    "KGISWardID": 6941
+  },
+  {
+    "KGISWardNo": "223",
+    "KGISWardName": "Chunchaghatta",
+    "KGISWardID": 6948
+  },
+  {
+    "KGISWardNo": "224",
+    "KGISWardName": "Anjanapura",
+    "KGISWardID": 6934
+  },
+  {
+    "KGISWardNo": "225",
+    "KGISWardName": "Gottigere",
+    "KGISWardID": 6951
+  },
+  {
+    "KGISWardNo": "226",
+    "KGISWardName": "Kalena Agrahara",
+    "KGISWardID": 6966
+  },
+  {
+    "KGISWardNo": "227",
+    "KGISWardName": "Begur",
+    "KGISWardID": 6965
+  },
+  {
+    "KGISWardNo": "228",
+    "KGISWardName": "Naganathapura",
+    "KGISWardID": 6938
+  },
+  {
+    "KGISWardNo": "229",
+    "KGISWardName": "Ibluru",
+    "KGISWardID": 6937
+  },
+  {
+    "KGISWardNo": "230",
+    "KGISWardName": "Agara",
+    "KGISWardID": 6949
+  },
+  {
+    "KGISWardNo": "231",
+    "KGISWardName": "Mangammanapalya",
+    "KGISWardID": 6944
+  },
+  {
+    "KGISWardNo": "232",
+    "KGISWardName": "HSR - Singasandra",
+    "KGISWardID": 6955
+  },
+  {
+    "KGISWardNo": "233",
+    "KGISWardName": "Rupenaagrahara",
+    "KGISWardID": 6958
+  },
+  {
+    "KGISWardNo": "234",
+    "KGISWardName": "Hongasandra",
+    "KGISWardID": 6957
+  },
+  {
+    "KGISWardNo": "235",
+    "KGISWardName": "Bommanahalli",
+    "KGISWardID": 6956
+  },
+  {
+    "KGISWardNo": "236",
+    "KGISWardName": "Devarachikkanahalli",
+    "KGISWardID": 6943
+  },
+  {
+    "KGISWardNo": "237",
+    "KGISWardName": "Bilekhalli",
+    "KGISWardID": 6959
+  },
+  {
+    "KGISWardNo": "238",
+    "KGISWardName": "Arakere",
+    "KGISWardID": 6946
+  },
+  {
+    "KGISWardNo": "239",
+    "KGISWardName": "Hulimavu",
+    "KGISWardID": 6939
+  },
+  {
+    "KGISWardNo": "240",
+    "KGISWardName": "Vinayakanagar",
+    "KGISWardID": 6960
+  },
+  {
+    "KGISWardNo": "241",
+    "KGISWardName": "Puttenahalli - Sarakki Lake",
+    "KGISWardID": 6940
+  },
+  {
+    "KGISWardNo": "242",
+    "KGISWardName": "Jaraganahalli",
+    "KGISWardID": 6947
+  },
+  {
+    "KGISWardNo": "243",
+    "KGISWardName": "Kudlu",
+    "KGISWardID": 6930
+  }
+]

@@ -1,9 +1,9 @@
-/**
+﻿/**
  * ╔══════════════════════════════════════════════════════════════════╗
  * ║  POLYBOLOS SDK — Core Type System                               ║
  * ║  Standardized Entity Model for Multi-Domain Intelligence        ║
  * ║                                                                 ║
- * ║  Built on OSIRIS by Souleimen Mrad                              ║
+ * ║  Built on NagarAI by Souleimen Mrad                              ║
  * ╚══════════════════════════════════════════════════════════════════╝
  */
 
@@ -134,8 +134,8 @@ export type LatticeConnectionStatus =
 // ── SDK Client Types ───────────────────────────────────────────────
 
 export interface PolybolosClientConfig {
-  /** Base URL for OSIRIS API endpoints */
-  osirisBaseUrl: string;
+  /** Base URL for NagarAI API endpoints */
+  NagarAIBaseUrl: string;
   /** Optional Lattice configuration */
   lattice?: LatticeConfig;
   /** Entity update callback */

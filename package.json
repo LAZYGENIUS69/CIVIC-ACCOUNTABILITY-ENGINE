@@ -1,5 +1,5 @@
 {
-  "name": "osiris",
+  "name": "nagaiai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,10 +21,12 @@
     "react-dom": "19.2.4",
     "react-force-graph-2d": "^1.29.1",
     "react-map-gl": "^8.1.1",
+    "recharts": "^3.9.0",
     "rss-parser": "^3.13.0",
     "satellite.js": "^7.0.0",
     "sharp": "^0.34.5",
-    "ws": "^8.21.0"
+    "ws": "^8.21.0",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

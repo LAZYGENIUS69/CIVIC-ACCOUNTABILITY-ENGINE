@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+﻿import { NextRequest, NextResponse } from 'next/server';
 
 // Server-side proxy for IP geolocation — avoids mixed-content block on HTTPS pages
 // Three providers with cascading fallback for maximum reliability
@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
       const res = await fetch(url, {
         signal: AbortSignal.timeout(5000),
         cache: 'no-store',
-        headers: { 'User-Agent': 'OSIRIS/4.2' },
+        headers: { 'User-Agent': 'NagarAI/4.2' },
       });
       if (res.ok) {
         const d = await res.json();
