@@ -52,6 +52,215 @@ public/
   data/                  GeoJSON and static map datasets
 ```
 
+## Technical Architecture
+
+NagarAI is organized as a client-heavy geospatial intelligence interface backed by focused Next.js API routes. The browser owns the live interaction loop: map state, selected ward state, issue overlays, modal state, and complaint workflow state. Server routes are used where secrets, model calls, data normalization, or third-party feed aggregation belong.
+
+```mermaid
+flowchart TB
+  subgraph Client["Client Application"]
+    Shell["Next.js App Shell<br/>src/app/page.tsx"]
+    Map["Map Command Surface<br/>NagarAIMap.tsx"]
+    Complaints["Civic Rights Assistant<br/>ComplaintsTab.tsx"]
+    Dashboard["Operations Dashboard<br/>DashboardTab.tsx"]
+    WardPanel["Ward Detail Panel<br/>WardDetailPanel.tsx"]
+    Store["Zustand Civic Store<br/>civicStore.ts"]
+  end
+
+  subgraph Server["Next.js Route Handlers"]
+    Analyze["/api/analyze-issue"]
+    Complaint["/api/generate-complaint"]
+    RTI["/api/generate-rti"]
+    Insights["/api/insights"]
+    Feeds["Public Data APIs<br/>gdelt, fires, radar, markets, infra"]
+  end
+
+  subgraph Data["Data Layer"]
+    GeoJSON["Static GeoJSON<br/>wards, districts, states"]
+    Seeds["Seed Civic Records<br/>issues, wards, politicians"]
+    Gemini["Google Gemini API"]
+    PublicFeeds["Public Intelligence Feeds"]
+  end
+
+  Shell --> Map
+  Shell --> Complaints
+  Shell --> Dashboard
+  Shell --> WardPanel
+  Map <--> Store
+  Complaints <--> Store
+  Dashboard <--> Store
+  WardPanel <--> Store
+  Map --> GeoJSON
+  Map --> Seeds
+  Complaints --> Analyze
+  Complaints --> Complaint
+  Complaints --> RTI
+  Dashboard --> Insights
+  WardPanel --> RTI
+  Analyze --> Gemini
+  Complaint --> Gemini
+  RTI --> Gemini
+  Insights --> Gemini
+  Feeds --> PublicFeeds
+```
+
+### Execution Model
+
+The application separates fast UI state from slower intelligence workflows:
+
+- Map rendering, selected ward context, user statistics, fly-to actions, and local complaint records are managed in the client store.
+- AI calls are isolated behind server routes so the Gemini key never needs to be exposed to the browser.
+- Static geospatial files are served from `public/data`, allowing MapLibre to draw civic boundaries without requiring a database for the current build.
+- Dashboard and modal views derive their operational summaries from the same issue records used by the map, keeping the interface consistent across views.
+
+```mermaid
+sequenceDiagram
+  actor User
+  participant UI as Complaint UI
+  participant Store as Zustand Store
+  participant Analyze as /api/analyze-issue
+  participant Draft as /api/generate-complaint
+  participant RTI as /api/generate-rti
+  participant Gemini as Gemini Model
+  participant Map as MapLibre View
+
+  User->>UI: Describe civic issue and add context
+  UI->>Analyze: Send issue text, location, and category hints
+  Analyze->>Gemini: Classify issue and infer civic ownership
+  Gemini-->>Analyze: Structured analysis result
+  Analyze-->>UI: Issue type, urgency, department, rights guidance
+  UI->>Draft: Request complaint draft
+  Draft->>Gemini: Generate civic complaint text
+  Gemini-->>Draft: Complaint draft
+  Draft-->>UI: Editable complaint output
+  UI->>RTI: Optional RTI generation
+  RTI->>Gemini: Generate RTI draft
+  Gemini-->>RTI: RTI text
+  RTI-->>UI: RTI output
+  UI->>Store: Persist issue and user action stats
+  Store->>Map: Update issue layer and fly-to target
+  Map-->>User: Spatial confirmation and ward context
+```
+
+### Map Rendering Pipeline
+
+The map is not a passive background. It is the primary interaction surface and acts as the shared spatial index for wards, issues, overlays, and civic drill-downs.
+
+```mermaid
+flowchart LR
+  Init["Map Init<br/>Carto basemap + MapLibre"] --> Sources["Register GeoJSON Sources"]
+  Sources --> Wards["Ward Boundaries Layer"]
+  Sources --> Districts["India District Context"]
+  Sources --> Issues["Civic Issue Points"]
+  Sources --> Pulses["City Pulse / Status Layers"]
+  Issues --> Events["Pointer, popup, click events"]
+  Wards --> Events
+  Events --> Selection["Selected ward / selected issue"]
+  Selection --> Store["Zustand Store"]
+  Store --> Panel["Ward Detail Panel"]
+  Store --> Tracker["Complaint Tracker Modal"]
+  Store --> FlyTo["Programmatic fly-to"]
+  FlyTo --> Init
+```
+
+### State Ownership
+
+NagarAI keeps state intentionally small and operational. The store coordinates shared civic state while leaving component-specific UI concerns local to the component.
+
+```mermaid
+classDiagram
+  class CivicStore {
+    issues
+    userStats
+    flyToLocation
+    addIssue()
+    updateIssueStatus()
+    setFlyToLocation()
+    incrementComplaintFiled()
+    incrementRtiFiled()
+    loadStatsFromLocalStorage()
+  }
+
+  class NagarAIMap {
+    mapRef
+    popupRef
+    selectedWard
+    heatmapEnabled
+    basemapMode
+  }
+
+  class ComplaintsTab {
+    issueDescription
+    analysisResult
+    generatedComplaint
+    generatedRti
+    photoUploadState
+  }
+
+  class DashboardTab {
+    categoryBreakdown
+    wardPressure
+    civicStats
+    generatedActions
+  }
+
+  class WardDetailPanel {
+    wardProfile
+    wardIssues
+    politicianContext
+    aiInsight
+  }
+
+  CivicStore <.. NagarAIMap
+  CivicStore <.. ComplaintsTab
+  CivicStore <.. DashboardTab
+  CivicStore <.. WardDetailPanel
+```
+
+### API Boundary
+
+The API layer is intentionally thin. Each route does one job: receive structured UI input, call a model or public data source when needed, normalize the response, and return a client-ready payload.
+
+```mermaid
+flowchart TD
+  Browser["Browser Components"] --> CivicAI["Civic AI Routes"]
+  Browser --> IntelRoutes["Intelligence Feed Routes"]
+  Browser --> StaticAssets["Static Public Assets"]
+
+  CivicAI --> AnalyzeIssue["analyze-issue<br/>issue classification"]
+  CivicAI --> GenerateComplaint["generate-complaint<br/>formal complaint drafting"]
+  CivicAI --> GenerateRTI["generate-rti<br/>RTI drafting"]
+  CivicAI --> Insights["insights<br/>ward and dashboard analysis"]
+
+  AnalyzeIssue --> Gemini["Gemini API"]
+  GenerateComplaint --> Gemini
+  GenerateRTI --> Gemini
+  Insights --> Gemini
+
+  IntelRoutes --> GDELT["GDELT"]
+  IntelRoutes --> NASA["NASA / FIRMS"]
+  IntelRoutes --> USGS["USGS"]
+  IntelRoutes --> Markets["Market and risk feeds"]
+  StaticAssets --> GeoJSON["GeoJSON Boundaries"]
+```
+
+### Design System Implementation
+
+The visual system is implemented with theme-aware CSS custom properties and tactical UI primitives rather than one-off color usage. This allows the same components to operate across light and dark modes without duplicating component logic.
+
+```mermaid
+flowchart LR
+  Tokens["CSS Custom Properties<br/>globals.css"] --> Theme["data-theme on documentElement"]
+  Theme --> Components["Tailwind arbitrary values<br/>var(--token)"]
+  Theme --> MapStyle["Theme-aware map style"]
+  Components --> Navbar["Navbar"]
+  Components --> Panels["Panels and Modals"]
+  Components --> Cards["Cards and Metrics"]
+  Components --> Controls["Map Controls"]
+  MapStyle --> Voyager["Light: Carto Voyager"]
+  MapStyle --> DarkMatter["Dark: Carto Dark Matter"]
+```
+
 ## Getting Started
 
 ### Prerequisites
