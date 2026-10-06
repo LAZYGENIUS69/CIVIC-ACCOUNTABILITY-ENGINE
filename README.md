@@ -360,6 +360,7 @@ The goal is to feel like a serious public-interest intelligence suite, not a mar
 - Do not commit `.env.local` or real API keys.
 - Keep `GEMINI_API_KEY` server-side only.
 - Review any public data-source integrations before exposing new API routes.
+- Treat generated complaint and RTI drafts as assistive outputs that should be reviewed before submission.
 
 ## License
 
